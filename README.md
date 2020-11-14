@@ -5,21 +5,14 @@ by Cesar Marinho <cesarmarinhorj@gmail.com> at https://creaturae.net/
 <br>
 <span>Imagem de: Cubelets Modular Robotics Kit<br>https://www.getdatgadget.com/cubelets-modular-robotics-kit</span>
 
-<style>
-img + br + span {
-    font-style: normal;
-    display: inherit;
-    text-align: center;
-    font-size: 75%;
-}
-</style>
 
-## Módulos
+## Libs e Módulos
 Não só de libs externas vive um projeto, mas das libs de sua equipe.
 
 Precisa ter espaço para reaproveitamento de código.
 
 Alguns exemplos são:
+
     - componentes
     - libs utilitárias
     - Regras de Negócio
@@ -32,7 +25,7 @@ Alguns exemplos são:
 Um projeto simples, fork de: https://docs.python-guide.org/writing/structure/
 
 
-## install
+### install
 ```sh
 python3 -m pip install -r requirements.txt
 ```
@@ -42,6 +35,6 @@ python3 -m pip install -r requirements.txt
 python3 main.py
 ```
 
-## next
+## Próximos passos
 - exemplos de cada uma das situações
 
