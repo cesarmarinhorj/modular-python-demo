@@ -1,6 +1,19 @@
 # Estrutura Demo de Arquitetura Modular
 by Cesar Marinho <cesarmarinhorj@gmail.com> at https://creaturae.net/
 
+<img src="./imagens/Cubelets.jpg">
+<br>
+<span>Imagem de: Cubelets Modular Robotics Kit<br>https://www.getdatgadget.com/cubelets-modular-robotics-kit</span>
+
+<style>
+img + br + span {
+    font-style: normal;
+    display: inherit;
+    text-align: center;
+    font-size: 75%;
+}
+</style>
+
 ## Módulos
 Não só de libs externas vive um projeto, mas das libs de sua equipe.
 
