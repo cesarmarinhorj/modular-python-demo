@@ -1,0 +1,63 @@
+@startuml
+
+' abstract
+class Contract {
+    UUID:UUID
+    hash
+    isActive:Boolean
+    createdAt:DateTime
+    expiresIn:DateTime
+}
+
+' app
+class AppRegistry {
+    UUID:UUID
+    name
+    domain
+    isActive:Boolean
+}
+
+class License {
+    hash
+    expiresIn:DateTime
+}
+
+class User {
+}
+
+' login
+class Identity {
+    username
+    password
+    isActive:Boolean
+    createdAt:DateTime
+    updatedAt:DateTime
+    expiresIn:DateTime
+}
+
+class UserInApp {
+    AppRegistryId
+    UserId
+}
+
+' model
+class PessoaAbstract {
+    nome
+    email
+    cpf
+    endereco
+}
+
+class PessoaAbstractValidate {
+    ---
+    checkIdade()
+    checkContract()
+    checkEndereco()
+}
+
+AppRegistry -- License
+License -- User
+Identity -- UserInApp
+PessoaAbstract -- PessoaAbstractValidate
+
+@enduml
