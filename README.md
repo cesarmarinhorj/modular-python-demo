@@ -1,4 +1,4 @@
-# Estrutura Demo de Arquitetura Modular
+# Demo de Arquitetura Modular
 by Cesar Marinho <cesarmarinhorj@gmail.com> at https://creaturae.net/
 
 <img src="./imagens/Cubelets.jpg">
